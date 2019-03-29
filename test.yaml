@@ -5,7 +5,7 @@
   tasks:
   - name: Downloading Trident install bundle
     get_url: 
-      url: https://github.com/NetApp/trident/releases/download/v19.01.0/trident-installer-19.01.0.tar.gz
+      url: http://github.com/NetApp/trident/releases/download/v19.01.0/trident-installer-19.01.0.tar.gz
       dest: /tmp/trident-installer-19.01.0.tar.gz
 
   - name: Unarchive a file
