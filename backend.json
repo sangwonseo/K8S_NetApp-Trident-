@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "storageDriverName": "ontap-nas",
+    "backendName": "ontapnfs",
+    "managementLIF": "49.254.105.140",
+    "dataLIF": "49.254.105.223",
+    "svm": "Ansible_Handson",
+    "username": "admin",
+    "password": "Netapp123"
+}
