@@ -1,0 +1,3 @@
+---
+- import_playbook: playbooks/Worker preparation.yaml
+- import_playbook: playbooks/trident.yaml   
