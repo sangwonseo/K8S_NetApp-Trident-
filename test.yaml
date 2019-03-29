@@ -1,13 +1,15 @@
 ---
 - hosts: kubernetes-master-nodes
+
   tasks:
-  - name: Downloading Trident install bundle 
-    get_url: 
-      url: https://github.com/NetApp/trident/releases/download/v19.01.0/trident-installer-19.01.0.tar.gz
-      dest: /tmp/trident-installer-19.01.0.tar.gz
-      mode: 0777
+  - name: Downloading Trident install bundle
+    shell: wget https://github.com/NetApp/trident/releases/download/v19.01.0/trident-installer-19.01.0.tar.gz
+  #  get_url: 
+  #    url: https://github.com/NetApp/trident/releases/download/v19.01.0/trident-installer-19.01.0.tar.gz
+  #    dest: /tmp/trident-installer-19.01.0.tar.gz
+  #    mode: 0777
 
   - name: Unarchive a file
     unarchive:
-      src: /tmp/trident-installer-19.01.0.tar.gz
-      dest: /tmp
+      src: /root/trident-installer-19.01.0.tar.gz
+      dest: /root
