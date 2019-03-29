@@ -1,7 +1,7 @@
 ---
 - hosts: kubernetes-master-nodes  
-  vars_files:
-  - env_variables
+#  vars_files:
+#  - env_variables
   tasks:
   - name: Downloading Trident install bundle
     get_url: 
