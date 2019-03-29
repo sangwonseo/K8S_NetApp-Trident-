@@ -1,5 +1,5 @@
 ---
-- hosts: 49.254.105.77  
+- hosts: kubernetes-master-nodes  
 #  vars_files:
 #  - env_variables
   tasks:
