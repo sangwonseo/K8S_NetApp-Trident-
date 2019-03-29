@@ -10,5 +10,5 @@
 
   - name: Unarchive a file
     unarchive:
-      src: /root/trident-installer-19.01.0.tar.gz
-      dest: /root
+      src: /tmp/trident-installer-19.01.0.tar.gz
+      dest: /tmp
