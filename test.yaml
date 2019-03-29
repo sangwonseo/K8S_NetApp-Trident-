@@ -10,3 +10,4 @@
     unarchive:
       src: /tmp/trident-installer-19.01.0.tar.gz
       dest: /tmp
+      remote_src: True
