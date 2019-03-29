@@ -11,3 +11,5 @@
       src: /tmp/trident-installer-19.01.0.tar.gz
       dest: /tmp
       remote_src: True
+  - name: Copy backend config file
+    template: src=backend.json dest=/tmp/trident-installer/setup
