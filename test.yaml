@@ -16,6 +16,11 @@
     template: src=backend.json dest=/tmp/trident-installer/setup
     
   - name: Verify Trident installation 
-    shell: ./tridentctl install --dry-run -n trident
+    shell: ./tridentctl install --dry-run 
+    args:
+      chdir: /tmp/trident-installer 
+
+  - name: Install Trident  
+    shell: ./tridentctl install -n trident -d
     args:
       chdir: /tmp/trident-installer 
