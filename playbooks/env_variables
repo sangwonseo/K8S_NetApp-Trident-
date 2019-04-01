@@ -1,0 +1,12 @@
+# Install & start packages  
+packages:
+- nfs-utils
+- lsscsi
+- iscsi-initiator-utils 
+- sg3_utils 
+- device-mapper-multipath 
+
+services:
+- iscsid
+- multipathd
+- iscsi
