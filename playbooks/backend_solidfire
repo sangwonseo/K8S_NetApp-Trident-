@@ -3,7 +3,7 @@
     "storageDriverName": "solidfire-san",
     "Endpoint": "https://admin:NetApp1!@49.254.105.228/json-rpc/8.0",
     "SVIP": "10.1.1.100:3260",
-    "TenantName": "NetApp-HCI",
+    "TenantName": "trident",
     "UseCHAP": true,
     "Types": [{"Type": "Bronze", "Qos": {"minIOPS": 1000, "maxIOPS": 2000, "burstIOPS": 4000}},
               {"Type": "Silver", "Qos": {"minIOPS": 4000, "maxIOPS": 6000, "burstIOPS": 8000}},
